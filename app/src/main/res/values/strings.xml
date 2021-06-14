@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Crédito para todes</string>
+    <string name="welcome_text_title">Precisa aliviar suas contas?</string>
+    <string name="welcome_text">Empréstimo fácil e totalmente digital, com condições personalizadas e taxas diferenciadas.</string>
+    <string name="start">Começar</string>
+
 </resources>
