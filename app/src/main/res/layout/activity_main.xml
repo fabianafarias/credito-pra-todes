@@ -22,7 +22,7 @@
             android:id="@+id/iv_home_icon"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@drawable/ic_baseline_home_24"
+            android:src="@drawable/home_toolbar_icon"
             />
 
         <TextView
@@ -40,7 +40,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:src="@drawable/ic_baseline_attach_money_24" />
+            android:src="@drawable/money_icon" />
 
     </androidx.appcompat.widget.Toolbar>
 
@@ -88,7 +88,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="60dp"
-        android:drawableRight="@drawable/ic_baseline_arrow_forward_ios_24"
+        android:drawableRight="@drawable/arrow_forward_right"
         android:text="@string/start"
         android:textAlignment="center"
         android:textColor="@color/pink_500"

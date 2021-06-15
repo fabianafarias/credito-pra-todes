@@ -1,5 +1,6 @@
 package com.fabianafarias.serasaproway
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
@@ -33,7 +34,7 @@ class Activity2 : AppCompatActivity(), AdapterView.OnItemClickListener {
 
         listItem.add(
             ItemList(
-                R.drawable.ic_baseline_attach_money_24,
+                R.drawable.person_icon,
                 "Empréstimo pessoal",
                 "Defina quanto precisa, o número de parcelas e tenha dinheiro rápido com taxas diferenciadas"
             )
@@ -41,7 +42,7 @@ class Activity2 : AppCompatActivity(), AdapterView.OnItemClickListener {
 
         listItem.add(
             ItemList(
-                R.drawable.ic_baseline_home_24,
+                R.drawable.car_icon,
                 "Empréstimo com garantia",
                 "Defina quanto precisa, o número de parcelas e use seu imóvel ou veículo para obter melhores taxas"
             )
@@ -49,7 +50,7 @@ class Activity2 : AppCompatActivity(), AdapterView.OnItemClickListener {
 
         listItem.add(
             ItemList(
-                R.drawable.ic_baseline_attach_money_24,
+                R.drawable.store_icon,
                 "Empréstimo para seu negócio",
                 "Defina quanto precisa, o número de parcelas e use seu negócio para obter melhores taxas"
             )
@@ -61,6 +62,7 @@ class Activity2 : AppCompatActivity(), AdapterView.OnItemClickListener {
 
     override fun onItemClick(parent: AdapterView<*>?, view: View?, position: Int, id: Long) {
         var items:ItemList = arrayList?.get(position)!!
-        Toast.makeText(applicationContext, items.title, Toast.LENGTH_LONG).show()
+        val intent = Intent(this, Activity3::class.java)
+        startActivity(intent)
     }
 }
