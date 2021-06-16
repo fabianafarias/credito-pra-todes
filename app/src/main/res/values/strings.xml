@@ -6,6 +6,23 @@
     <string name="detail_text_view">Defina quanto precisa, o número de parcelas e tenha dinheiro rápido com taxas diferenciadas</string>
     <string name="title_text_view">Empréstimo pessoal</string>
     <string name="text_view_title_1">Qual empréstimo você precisa?</string>
+    <string name="form_text">Precisamos de alguns dados para gerar sua oferta:</string>
+    <string name="valor_emprestimo">Qual é o valor que  você precisa?</string>
+    <string name="renda_mensal">Renda mensal comprovada</string>
+    <string name="nome_completo">Nome completo (como no seu documento)</string>
+    <string name="situacao_profissional">Situação profissional</string>
+    <string name="esta_negativado">Está negativado?</string>
+    <string name="motivo_emprestimo">Motivo de empréstimo</string>
+    <string name="dia_de_vencimento_das_parcelas">Dia de vencimento das parcelas</string>
+    <string name="estado_civil">Estado civil</string>
+    <string name="escolaridade">Escolaridade</string>
+    <string name="motivo_de_emprestimo">Motivo de empréstimo</string>
+    <string name="data_de_nascimento">Data de nascimento</string>
+    <string name="form_text_title">Antes, precisamos de alguns dados</string>
+    <string name="genero">Gênero</string>
+    <string name="telefone">Telefone</string>
+    <string name="email">Email</string>
+    <string name="termos_de_uso">Li e concordo  com os termos de uso e política de privacidade.</string>
 
 
 </resources>
