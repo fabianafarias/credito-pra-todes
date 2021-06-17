@@ -6,7 +6,6 @@ import android.os.Bundle
 import android.view.View
 import android.widget.AdapterView
 import android.widget.ListView
-import android.widget.Toast
 
 
 class Activity2 : AppCompatActivity(), AdapterView.OnItemClickListener {
@@ -59,6 +58,7 @@ class Activity2 : AppCompatActivity(), AdapterView.OnItemClickListener {
         return listItem
 
     }
+
 
     override fun onItemClick(parent: AdapterView<*>?, view: View?, position: Int, id: Long) {
         var items:ItemList = arrayList?.get(position)!!

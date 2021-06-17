@@ -23,7 +23,7 @@
             android:id="@+id/tv_toolbar_name"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Empréstimos"
+            android:text="@string/simulacao"
             android:textColor="@color/white"
             android:textSize="30sp"
             android:textStyle="bold"
@@ -33,7 +33,7 @@
 
 
     <LinearLayout
-        android:id="@+id/ll_main_layout"
+        android:id="@+id/ll_simulation"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="48dp"
@@ -42,15 +42,17 @@
         android:orientation="vertical" >
 
         <TextView
+            android:id="@+id/tv_title_activity_simulation"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textSize="22sp"
             android:textStyle="bold"
             android:paddingBottom="10dp"
             android:textColor="@color/black"
-            android:text="@string/form_text_title" />
+            android:text="@string/simulation_text_title" />
 
         <TextView
+            android:id="@+id/tv_value"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/valor_emprestimo"
@@ -60,6 +62,7 @@
             />
 
         <EditText
+            android:id="@+id/et_value"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="R$ 0,00"
@@ -67,6 +70,7 @@
             android:textSize="22sp" />
 
         <TextView
+            android:id="@+id/tv_hint_value"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:paddingBottom="10dp"
@@ -75,6 +79,7 @@
             android:textAlignment="viewEnd" />
 
         <TextView
+            android:id="@+id/tv_renda"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/renda_mensal"
@@ -84,6 +89,7 @@
             />
 
         <EditText
+            android:id="@+id/et_renda"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="R$ 0,00"
@@ -91,6 +97,7 @@
             android:textSize="16sp" />
 
         <TextView
+            android:id="@+id/tv_name"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/nome_completo"
@@ -100,6 +107,7 @@
             />
 
         <EditText
+            android:id="@+id/et_name"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Seu nome completo"
@@ -109,6 +117,7 @@
 
 
         <TextView
+            android:id="@+id/tv_birth_date"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/data_de_nascimento"
@@ -118,27 +127,30 @@
             />
 
         <EditText
+            android:id="@+id/et_birth_date"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="(00/00/0000)"
             android:textSize="16sp" />
 
         <TextView
+            android:id="@+id/tv_phone_number"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/telefone"
             android:textSize="12dp"
             android:textStyle="bold"
-            android:textColor="@color/black"
-            />
+            android:textColor="@color/black" />
 
         <EditText
+            android:id="@+id/et_phone_number"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="(27) 99988-7766"
             android:textSize="16sp" />
 
         <TextView
+            android:id="@+id/tv_email"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/email"
@@ -148,35 +160,15 @@
             />
 
         <EditText
+            android:id="@+id/et_email"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="nome@email.com"
             android:textSize="16sp" />
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal" >
-
-            <TextView
-                android:layout_width="260dp"
-                android:layout_height="wrap_content"
-                android:padding="10dp"
-                android:text="@string/termos_de_uso"
-                android:textSize="12sp"
-                android:lineHeight="20dp"
-                />
-
-            <Switch
-                android:id="@+id/switch1"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:padding="10dp"
-                tools:ignore="UseSwitchCompatOrMaterialXml" />
-
-        </LinearLayout>
 
             <Button
+                android:id="@+id/btn_simulation"
                 android:layout_width="210dp"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="24dp"
@@ -184,9 +176,7 @@
                 android:text="Simular empréstimo"
                 android:backgroundTint="@color/blue_200" />
 
-
     </LinearLayout>
-
 
 
 </RelativeLayout>

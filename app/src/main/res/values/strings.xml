@@ -18,11 +18,23 @@
     <string name="escolaridade">Escolaridade</string>
     <string name="motivo_de_emprestimo">Motivo de empréstimo</string>
     <string name="data_de_nascimento">Data de nascimento</string>
-    <string name="form_text_title">Antes, precisamos de alguns dados</string>
+    <string name="simulation_text_title">Antes, precisamos de alguns dados</string>
     <string name="genero">Gênero</string>
     <string name="telefone">Telefone</string>
     <string name="email">Email</string>
     <string name="termos_de_uso">Li e concordo  com os termos de uso e política de privacidade.</string>
+    <string name="simulacao">Simulação</string>
+    <string name="confirmacao">Confirmação</string>
+    <string name="confirmation_text_title">Confira os dados da sua simulação</string>
+    <string name="valor_solicitado">Valor solicitado:</string>
+    <string name="confirmation_tv_valor">R$ 0,00</string>
+    <string name="confirmation_tv_nome">Nome completo</string>
+    <string name="nome_cadastrado">Nome:</string>
+    <string name="ata_de_nascimento_cadastrado">Data de nascimento:</string>
+    <string name="confirmation_tv_data_nascimento">Data de nascimento</string>
+    <string name="renda_cadastrada">Renda:</string>
+    <string name="confirmation_tv_renda">R$ 1.500,00</string>
+    <string name="todo">TODO</string>
 
 
 </resources>
