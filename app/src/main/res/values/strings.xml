@@ -28,13 +28,22 @@
     <string name="confirmation_text_title">Confira os dados da sua simulação</string>
     <string name="valor_solicitado">Valor solicitado:</string>
     <string name="confirmation_tv_valor">R$ 0,00</string>
-    <string name="confirmation_tv_nome">Nome completo</string>
-    <string name="nome_cadastrado">Nome:</string>
+    <string name="confirmation_tv_nome">Nome:</string>
+    <string name="nome_cadastrado">Nome cadastrado</string>
     <string name="ata_de_nascimento_cadastrado">Data de nascimento:</string>
-    <string name="confirmation_tv_data_nascimento">Data de nascimento</string>
+    <string name="confirmation_tv_data_nascimento">Data de nascimento:</string>
     <string name="renda_cadastrada">Renda:</string>
     <string name="confirmation_tv_renda">R$ 1.500,00</string>
     <string name="todo">TODO</string>
+    <string name="phone_inserted">phone_inserted</string>
+    <string name="birth_date_inserted">birth_date_inserted</string>
+    <string name="email_inserted">Email inserido</string>
+    <string name="confirmar_solicita_o">Confirmar solicitação</string>
+    <string name="hint_date">(00/00/0000)</string>
+    <string name="confirmation_tv_phone_number">Telefone:</string>
+    <string name="telefone_cadastrado">Telefone cadstarado</string>
+    <string name="tv_email_confirmation">Email:</string>
+    <string name="multiline_text">Seus dados foram cadastrados com sucesso e sua solicitação está em análise. </string>
 
 
 </resources>
