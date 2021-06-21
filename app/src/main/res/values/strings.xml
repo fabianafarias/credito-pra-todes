@@ -9,7 +9,7 @@
     <string name="form_text">Precisamos de alguns dados para gerar sua oferta:</string>
     <string name="valor_emprestimo">Qual é o valor que  você precisa?</string>
     <string name="renda_mensal">Renda mensal comprovada</string>
-    <string name="nome_completo">Nome completo (como no seu documento)</string>
+    <string name="nome_completo">Nome completo</string>
     <string name="situacao_profissional">Situação profissional</string>
     <string name="esta_negativado">Está negativado?</string>
     <string name="motivo_emprestimo">Motivo de empréstimo</string>
@@ -44,6 +44,10 @@
     <string name="telefone_cadastrado">Telefone cadstarado</string>
     <string name="tv_email_confirmation">Email:</string>
     <string name="multiline_text">Seus dados foram cadastrados com sucesso e sua solicitação está em análise. </string>
+    <string name="insira_seu_email">seumail@email.com</string>
+    <string name="confirmar_solicitao">Confirmar solicitação</string>
+    <string name="final_message">Sua solicitação foi realizada com sucesso e está em análise.</string>
+    <string name="final_message_name">Name,</string>
 
 
 </resources>

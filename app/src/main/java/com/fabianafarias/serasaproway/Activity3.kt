@@ -1,46 +1,38 @@
 package com.fabianafarias.serasaproway
 
-import android.app.DatePickerDialog
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
 import android.widget.EditText
-import java.util.*
+import androidx.appcompat.widget.Toolbar
+import br.com.sapereaude
+.maskedEditText
+.MaskedEditText;
 
 class Activity3 : AppCompatActivity() {
     lateinit var btnSimulation:Button
-    lateinit var valueEditText: EditText
-    lateinit var rendaEditText: EditText
+    lateinit var valueEditText: MaskedEditText
+    lateinit var rendaEditText: MaskedEditText
     lateinit var nameEditText: EditText
-    lateinit var birthDateEditText: EditText
-    lateinit var phoneNumberEditText: EditText
+    lateinit var birthDateEditText: MaskedEditText
     lateinit var emailEditText: EditText
+    lateinit var phoneNumberEditText: MaskedEditText
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_3)
 
-        var valueEditText = findViewById<EditText>(R.id.et_value)
-        var rendaEditText = findViewById<EditText>(R.id.et_renda)
+        val toolbar = findViewById<Toolbar>(R.id.toolbar)
+        setSupportActionBar(toolbar)
+
+        supportActionBar?.setDisplayHomeAsUpEnabled(true)
+
+        var valueEditText = findViewById<MaskedEditText>(R.id.et_value)
+        var rendaEditText = findViewById<MaskedEditText>(R.id.et_renda)
         var nameEditText = findViewById<EditText>(R.id.et_name)
-        var birthDateEditText = findViewById<EditText>(R.id.et_birth_date)
-
-        //Calendar
-        val c = Calendar.getInstance()
-        val year = c.get(Calendar.YEAR)
-        val month = c.get(Calendar.MONTH)
-        val day = c.get(Calendar.DAY_OF_MONTH)
-
-        birthDateEditText.setOnClickListener {
-
-            val dpd = DatePickerDialog(this, DatePickerDialog.OnDateSetListener { view, year, monthOfYear, dayOfMonth ->
-                // Display Selected date in TextView
-                birthDateEditText.setText("" + dayOfMonth + "/" + month + "/" + year)
-            }, year, month, day)
-            dpd.show()
-
-        var phoneNumberEditText= findViewById<EditText>(R.id.et_phone_number)
+        var birthDateEditText = findViewById<MaskedEditText>(R.id.et_birth_date)
+        var phoneNumberEditText= findViewById<MaskedEditText>(R.id.et_phone_number)
         var emailEditText = findViewById<EditText>(R.id.et_email)
         var btnSimulation = findViewById<Button>(R.id.btn_simulation)
 
@@ -66,4 +58,4 @@ class Activity3 : AppCompatActivity() {
             }
         }
     }
-}
+

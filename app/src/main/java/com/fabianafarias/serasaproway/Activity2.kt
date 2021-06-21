@@ -6,6 +6,7 @@ import android.os.Bundle
 import android.view.View
 import android.widget.AdapterView
 import android.widget.ListView
+import androidx.appcompat.widget.Toolbar
 
 
 class Activity2 : AppCompatActivity(), AdapterView.OnItemClickListener {
@@ -17,6 +18,11 @@ class Activity2 : AppCompatActivity(), AdapterView.OnItemClickListener {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_2)
+
+        val toolbar = findViewById<Toolbar>(R.id.toolbar)
+        setSupportActionBar(toolbar)
+
+        supportActionBar?.setDisplayHomeAsUpEnabled(false)
 
         listView = findViewById(R.id.cardview_list_view)
         arrayList = ArrayList()

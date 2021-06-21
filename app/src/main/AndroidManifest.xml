@@ -8,8 +8,11 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/Theme.SerasaProway">
-        <activity android:name=".Activity4" />
-        <activity android:name=".Activity3" />
+        <activity android:name=".Activity5"/>
+        <activity android:name=".Activity4"
+            android:parentActivityName="com.fabianafarias.serasaproway.Activity3"/>
+        <activity android:name=".Activity3"
+            android:parentActivityName="com.fabianafarias.serasaproway.Activity2" />
         <activity android:name=".Activity2" />
         <activity android:name=".MainActivity">
             <intent-filter>

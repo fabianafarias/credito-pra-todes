@@ -10,6 +10,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+
         val startButton = findViewById<TextView>(R.id.tv_start)
         startButton.setOnClickListener {
             val intent = Intent(this, Activity2::class.java)
