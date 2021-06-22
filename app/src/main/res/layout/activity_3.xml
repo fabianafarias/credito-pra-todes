@@ -4,7 +4,8 @@
     android:layout_height="match_parent"
     xmlns:tools="http://schemas.android.com/tools"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    tools:context=".Activity3">
+    tools:context=".Activity3"
+    android:orientation="vertical" >
 
     <include layout="@layout/toolbar" />
 
@@ -18,13 +19,15 @@
         android:orientation="vertical"
         android:background="@android:color/transparent" >
 
+
         <TextView
             android:id="@+id/tv_title_activity_simulation"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textSize="22sp"
+            android:textStyle="bold"
             android:textColor="@color/black"
-            android:paddingBottom="10dp"
+            android:paddingBottom="20dp"
             android:text="@string/simulation_text_title" />
 
         <TextView
@@ -48,13 +51,15 @@
             android:textStyle="bold"
             android:textColorHint="@color/pink_500"
             android:inputType="numberDecimal"
+            android:typeface="monospace"
             android:maxLength="12"
             app:keep_hint="true"
             android:background="@drawable/background"
-            app:mask="R$ #.###" />
+            app:mask="R$ #.###"
+            android:imeOptions="actionNext" />
 
         <TextView
-            android:id="@+id/tv_renda"
+            android:id="@+id/tv_income"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/renda_mensal"
@@ -63,17 +68,18 @@
             android:textColor="@color/black" />
 
         <br.com.sapereaude.maskedEditText.MaskedEditText
-            android:id="@+id/et_renda"
+            android:id="@+id/et_income"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:padding="5dp"
             android:hint="100000"
             android:inputType="numberDecimal"
+            android:typeface="monospace"
             android:maxLength="12"
             app:keep_hint="true"
             android:background="@drawable/background"
-
-            app:mask="R$ #.###,##" />
+            app:mask="R$ #.###,##"
+            android:imeOptions="actionNext" />
 
         <TextView
             android:id="@+id/tv_name"
@@ -92,9 +98,11 @@
             android:padding="5dp"
             android:hint="@string/nome_completo"
             android:inputType="text"
+            android:typeface="monospace"
             android:background="@drawable/background"
             android:maxLength="35"
-            android:textSize="18sp" />
+            android:textSize="18sp"
+            android:imeOptions="actionNext" />
 
         <TextView
             android:id="@+id/tv_birth_date"
@@ -112,8 +120,10 @@
             android:padding="5dp"
             android:id="@+id/et_birth_date"
             android:inputType="date"
+            android:typeface="monospace"
             android:background="@drawable/background"
-            app:mask="##/##/####"/>
+            app:mask="##/##/####"
+            android:imeOptions="actionNext" />
 
         <TextView
             android:id="@+id/tv_phone_number"
@@ -131,9 +141,11 @@
             android:padding="5dp"
             android:hint="27999988888"
             android:inputType="phone"
+            android:typeface="monospace"
             app:keep_hint="true"
             android:background="@drawable/background"
-            app:mask="+55 ## #####-####" />
+            app:mask="+55 ## #####-####"
+            android:imeOptions="actionNext" />
 
         <TextView
             android:id="@+id/tv_email"
@@ -152,14 +164,15 @@
             android:hint="@string/insira_seu_email"
             android:background="@drawable/background"
             android:inputType="textEmailAddress"
+            android:typeface="monospace"
             android:maxLength="35"
-            />
+            android:imeOptions="actionNext"/>
 
         <Button
                 android:id="@+id/btn_simulation"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="24dp"
+                android:layout_marginTop="32dp"
                 android:padding="15dp"
                 android:layout_gravity="center"
                 android:text="Simular empréstimo"

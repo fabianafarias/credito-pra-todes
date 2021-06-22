@@ -21,13 +21,13 @@ class Activity4 : AppCompatActivity() {
         val valueTextView: TextView = findViewById(R.id.tv_value_inserted)
         valueTextView.text = value
 
-        val renda = intent.getStringExtra("Renda")
-        val rendaTextView: TextView = findViewById(R.id.tv_renda_iserted)
-        rendaTextView.text = renda
+        val income = intent.getStringExtra("Renda")
+        val incomeTextView: TextView = findViewById(R.id.tv_income_iserted)
+        incomeTextView.text = income
 
-        val name2 = intent.getStringExtra("Nome")
+        val name = intent.getStringExtra("Nome")
         val nameTextView: TextView = findViewById(R.id.tv_name_inserted)
-        nameTextView.text = name2
+        nameTextView.text = name
 
         val birthDate = intent.getStringExtra("Data de Nascimento")
         val birthDateTextView: TextView = findViewById(R.id.tv_birth_date_inserted)
@@ -45,7 +45,7 @@ class Activity4 : AppCompatActivity() {
         btnConfirmation.setOnClickListener {
 
             var intent = Intent(this, Activity5::class.java)
-            intent.putExtra("Nome2", name2)
+            intent.putExtra("Nome", name)
             startActivity(intent)
         }
     }
