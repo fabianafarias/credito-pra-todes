@@ -18,11 +18,11 @@ Android Studio 4.2.1
 
 # Descrição do projeto
 Um aplicativo contendo 5 telas, sendo elas:
-1 Apresentação do produto
-2 Descrição das opções de empréstimo
-3 Cadastro para simulação de empréstimo
-4 Apresentação dos dados cadastrados para confirmação da simulação
-5 Mensagem final
+- 1 Apresentação do produto
+- 2 Descrição das opções de empréstimo
+- 3 Cadastro para simulação de empréstimo
+- 4 Apresentação dos dados cadastrados para confirmação da simulação
+- 5 Mensagem final
 
 # Execução do projeto
 - Copie o link do projeto no github
