@@ -1,22 +1,23 @@
 # Crédito para todes
-## App de crédito desenvolvido para o Programa Código para TodXS – Edição Mobile da Serasa
 
-# SO utilizado:
+# App de crédito desenvolvido para o Programa Código para TodXS – Edição Mobile da Serasa
+
+## SO utilizado:
 Ubuntu 20.04
 
-# Linguagem utilizada:
+## Linguagem utilizada:
 Kotlin 1.5.10
 
-# IDE utilizada:
+## IDE utilizada:
 Android Studio 4.2.1
 
-# API: 30
+## API: 30
 
-# Dependências adicionadas no build.gradle(Module):
+## Dependências adicionadas no build.gradle(Module):
 - Cardview: implementation 'androidx.cardview:cardview:1.0.0'
 - MaskedEditText: implementation 'ru.egslava:MaskedEditText:1.0.5'
 
-# Descrição do projeto
+## Descrição do projeto
 Um aplicativo contendo 5 telas, sendo elas:
 - 1 Apresentação do produto
 - 2 Descrição das opções de empréstimo
@@ -24,7 +25,7 @@ Um aplicativo contendo 5 telas, sendo elas:
 - 4 Apresentação dos dados cadastrados para confirmação da simulação
 - 5 Mensagem final
 
-# Execução do projeto
+## Execução do projeto
 - Copie o link do projeto no github
 - Clone o projeto no terminal do sistema ou diretamente na IDE da sua preferência com suporte à Kotlin para desenvolvimento Android
 (Android Studio/ IntelliJ IDEA)
